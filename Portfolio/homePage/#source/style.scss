@@ -1,0 +1,170 @@
+@import "nullstyle.scss";
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+$mainColor: rgb(89, 0, 206);
+$mainColorDark: rgb(75, 0, 173);
+$subColor: rgb(11, 0, 20);
+$mainTextColor: rgb(238, 228, 255);
+$mainTextColorDark: rgb(15, 15, 15);
+
+
+
+
+body {
+    background: rgb(215, 194, 255);
+    height: 3000px;
+}
+#header {
+    width: 100%;
+    height: 85px;
+    padding: 0 60px;
+    position: fixed;
+    & #header__body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.scroll {
+    background: $subColor;
+}
+#logo {
+    & a {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 40px;
+        color: $mainTextColor;
+        & span {
+            color: $mainColor;
+        }
+    }
+}
+#navbar {
+    & ul {
+        display: flex;
+        cursor: pointer;
+        & li {
+            &:last-child {
+                &:hover .submenu{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+            & a {
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                color: $mainTextColor;
+                transition: 0.15s 0.15s;
+                margin: 15px;
+                border-bottom: 0px solid $mainColorDark;
+                &:hover {
+                    text-shadow: 0 0 20px $mainColor;
+                }
+            }
+        }
+    }
+}
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    padding: 0px 0 0 0;
+    transition: 0.2s 0.1s;
+    padding: 30px 0 0 0;
+    & li {
+        background: $subColor;
+        padding: 20px 20px;
+    }
+    & a {
+        padding: 10px;
+        background: $mainColorDark;
+        border-radius: 5px;
+        &:hover {
+        background: $mainColor;
+        padding: 10px;
+        }
+    }
+}
+.welcome-box {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/main-block.jpg);
+    & .superimpose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.623);
+        & h1 {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 60px;
+            color: $mainTextColor;
+            margin: 200px 0 0 0;
+            line-height: 80px;
+        }
+        & span {
+            color: rgb(0, 110, 255);
+        }
+        & p {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: $mainTextColor;
+            margin: 15px 0 0 0;
+        }
+        & a {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: $mainTextColor;
+            margin: 65px 0 0 0;
+            padding: 8px 25px;
+            background: $mainColor;
+            border-radius: 35px;
+            transition: 0.2s 0.1s;
+            &:hover {
+                background: $mainColorDark;
+            }
+        }
+    }
+}
+#about-me {
+    background: rgb(255, 255, 255);
+    padding: 0 0 40px 0;
+    & #about__title h2 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 38px;
+        color: $mainTextColorDark;
+        text-align: center;
+        border-bottom: 3px solid $mainColor;
+        margin: 0 180px 40px 180px;
+        padding: 40px 0 0 0;
+    }
+    & .about__content {
+        display: flex;
+        margin: 0 180px;
+        & .about__photo img{
+           max-width: 270px;
+           border-radius: 15px;
+        }
+        & .about__text p {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: $mainTextColorDark;
+            padding: 0 0 0 45px;
+            line-height: 1.6;
+        }
+    }
+}

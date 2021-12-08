@@ -1,0 +1,363 @@
+@import "https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap";
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none; 
+}
+
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+blockquote {
+  margin: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 65px;
+}
+
+dd {
+  margin: 0;
+  margin: 0;
+}
+
+dl {
+  margin: 0;
+  margin: 0;
+}
+
+figcaption {
+  margin: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ol[class] {
+  margin: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  margin: 0;
+}
+
+ul[class] {
+  margin: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+  margin-top: 1em;
+}
+
+button {
+  font: inherit;
+  font: inherit;
+}
+
+input {
+  font: inherit;
+  font: inherit;
+}
+
+select {
+  font: inherit;
+  font: inherit;
+}
+
+textarea {
+  font: inherit;
+  font: inherit;
+}
+
+#element::-webkit-scrollbar {
+  width: 10px;
+}
+
+#element::-webkit-scrollbar-track {
+  background-color: #2e2d2d;
+}
+
+#element::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #6300e4;
+}
+
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+body {
+  background: #d7c2ff;
+  height: 3000px;
+}
+
+#header {
+  width: 100%;
+  height: 85px;
+  padding: 0 60px;
+  position: fixed;
+}
+
+#header #header__body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scroll {
+  background: #0b0014;
+}
+
+#logo a {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #eee4ff;
+}
+
+#logo a span {
+  color: #5900ce;
+}
+
+#navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+#navbar ul li:last-child:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+#navbar ul li a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #eee4ff;
+  -webkit-transition: 0.15s 0.15s;
+  transition: 0.15s 0.15s;
+  margin: 15px;
+  border-bottom: 0px solid #4b00ad;
+}
+
+#navbar ul li a:hover {
+  text-shadow: 0 0 20px #5900ce;
+}
+
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 70px;
+  top: 50px;
+  padding: 0px 0 0 0;
+  -webkit-transition: 0.2s 0.1s;
+  transition: 0.2s 0.1s;
+  padding: 30px 0 0 0;
+}
+
+.submenu li {
+  background: #0b0014;
+  padding: 20px 20px;
+}
+
+.submenu a {
+  padding: 10px;
+  background: #4b00ad;
+  border-radius: 5px;
+}
+
+.submenu a:hover {
+  background: #5900ce;
+  padding: 10px;
+}
+
+.welcome-box {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/main-block.jpg);
+}
+
+.welcome-box .superimpose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.691);
+}
+
+.welcome-box .superimpose h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #eee4ff;
+  margin: 200px 0 0 0;
+  line-height: 80px;
+}
+
+.welcome-box .superimpose span {
+  color: rgb(0, 60, 255);
+}
+
+.welcome-box .superimpose p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #eee4ff;
+  margin: 15px 0 0 0;
+}
+
+.welcome-box .superimpose a {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #eee4ff;
+  margin: 65px 0 0 0;
+  padding: 8px 25px;
+  background: #5900ce;
+  border-radius: 35px;
+  -webkit-transition: 0.2s 0.1s;
+  transition: 0.2s 0.1s;
+}
+
+.welcome-box .superimpose a:hover {
+  background: #4b00ad;
+}
+
+#about-me {
+  background: white;
+  padding: 0 0 40px 0;
+}
+
+#about-me #about__title h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: #0f0f0f;
+  text-align: center;
+  border-bottom: 3px solid #5900ce;
+  margin: 0 180px 40px 180px;
+  padding: 40px 0 0 0;
+}
+
+#about-me .about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 180px;
+}
+
+#about-me .about__content .about__photo img {
+  max-width: 270px;
+  border-radius: 15px;
+}
+
+#about-me .about__content .about__text p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0f0f0f;
+  padding: 0 0 0 45px;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */
